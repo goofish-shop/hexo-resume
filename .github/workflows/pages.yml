@@ -11,6 +11,9 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v3
+      - name: Get git submodules
+        run: git submodule update --init --recursive
       - uses: actions/checkout@v2
       - name: Use Node.js 20.10.0.x
         uses: actions/setup-node@v2
