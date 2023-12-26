@@ -11,9 +11,11 @@ author: ahKevinXy
 language: en
 timezone: ''
 
+theme: stellar
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://goofish-shop.github.io/hexo-resume/
+url: https://goofish-shop.github.io/hexo-stellar/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
